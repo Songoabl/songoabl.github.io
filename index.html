@@ -4,46 +4,28 @@
  <head>
 
 
+
+
+
+
+
+
+
+
   <meta charset="UTF-8"> 
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page responsive</title>
+  <title>Image en haut à gauche</title>
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-    }
-
-    .conteneur-image {
-      display: flex;
-      justify-content: center;   /* centre horizontalement */
-      align-items: flex-start;   /* image en haut */
-      padding-top: 30px;
-    }
-
-    .conteneur-image img {
-      max-width: 50%;     /* ne dépasse jamais 90% de l’écran */
-      height: auto;
-    }
-
-    .texte {
-      padding: 20px;
-      text-align: center;
+    img {
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      width: 300px; /* ou autre taille selon ton image */
     }
   </style>
 </head>
 <body>
 
-  <div class="conteneur-image">
-    <img src="songo.jpg" alt="Ma photo">
-  </div>
-
-  <div class="texte">
-    
-  </div>
-
-
-
+  <img src="songo.jpg" alt="Ma photo" />
 
   
  
@@ -163,6 +145,7 @@ ________________________________________________________________________________
 </body> 
 
 </html>
+
 
 
 
