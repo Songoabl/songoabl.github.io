@@ -19,9 +19,20 @@
       position: absolute;
       top: 5%;
       right: 5%;
+     width: 300px;
       max-width: 40%; /* ou autre taille selon ton image */
      height: auto;
     }
+   
+/* Pour petits écrans */
+@media (max-width: 600px) {
+  img {
+    position: static;
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+  }
+}
   </style>
 </head>
 <body>
